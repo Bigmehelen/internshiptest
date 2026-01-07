@@ -1,12 +1,11 @@
-import MainLayout from "../component/templates/MainLayout"
-import Card from "../components/molecules/Cards"
 
 
 function HomePage() {
 return (
-<MainLayout>
-<Card />
-</MainLayout>
+  <div>
+    <h1>Home Page</h1>
+  </div>
+
 )
 }
 export default HomePage;
